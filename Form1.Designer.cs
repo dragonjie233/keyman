@@ -90,11 +90,12 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // b2
             // 
-            this.b2.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.b2.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.b2.Location = new System.Drawing.Point(174, 15);
             this.b2.Name = "b2";
             this.b2.Size = new System.Drawing.Size(70, 70);
@@ -104,7 +105,7 @@
             // 
             // b3
             // 
-            this.b3.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.b3.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.b3.Location = new System.Drawing.Point(250, 16);
             this.b3.Name = "b3";
             this.b3.Size = new System.Drawing.Size(70, 70);
@@ -114,7 +115,7 @@
             // 
             // b4
             // 
-            this.b4.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.b4.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.b4.Location = new System.Drawing.Point(326, 17);
             this.b4.Name = "b4";
             this.b4.Size = new System.Drawing.Size(70, 70);
@@ -124,7 +125,7 @@
             // 
             // b5
             // 
-            this.b5.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.b5.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.b5.Location = new System.Drawing.Point(402, 17);
             this.b5.Name = "b5";
             this.b5.Size = new System.Drawing.Size(70, 70);
@@ -134,7 +135,7 @@
             // 
             // b6
             // 
-            this.b6.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.b6.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.b6.Location = new System.Drawing.Point(478, 16);
             this.b6.Name = "b6";
             this.b6.Size = new System.Drawing.Size(70, 70);
@@ -144,7 +145,7 @@
             // 
             // b7
             // 
-            this.b7.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.b7.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.b7.Location = new System.Drawing.Point(554, 16);
             this.b7.Name = "b7";
             this.b7.Size = new System.Drawing.Size(70, 70);
@@ -154,7 +155,7 @@
             // 
             // b8
             // 
-            this.b8.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.b8.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.b8.Location = new System.Drawing.Point(630, 17);
             this.b8.Name = "b8";
             this.b8.Size = new System.Drawing.Size(70, 70);
@@ -164,7 +165,7 @@
             // 
             // b9
             // 
-            this.b9.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.b9.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.b9.Location = new System.Drawing.Point(706, 17);
             this.b9.Name = "b9";
             this.b9.Size = new System.Drawing.Size(70, 70);
@@ -174,7 +175,7 @@
             // 
             // b0
             // 
-            this.b0.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.b0.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.b0.Location = new System.Drawing.Point(782, 17);
             this.b0.Name = "b0";
             this.b0.Size = new System.Drawing.Size(70, 70);
@@ -184,7 +185,7 @@
             // 
             // b11
             // 
-            this.b11.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.b11.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.b11.Location = new System.Drawing.Point(858, 17);
             this.b11.Name = "b11";
             this.b11.Size = new System.Drawing.Size(70, 70);
@@ -194,7 +195,7 @@
             // 
             // b12
             // 
-            this.b12.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.b12.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.b12.Location = new System.Drawing.Point(934, 17);
             this.b12.Name = "b12";
             this.b12.Size = new System.Drawing.Size(70, 70);
@@ -204,7 +205,7 @@
             // 
             // b10
             // 
-            this.b10.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.b10.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.b10.Location = new System.Drawing.Point(22, 15);
             this.b10.Name = "b10";
             this.b10.Size = new System.Drawing.Size(70, 70);
@@ -214,7 +215,7 @@
             // 
             // b1
             // 
-            this.b1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.b1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.b1.Location = new System.Drawing.Point(98, 14);
             this.b1.Name = "b1";
             this.b1.Size = new System.Drawing.Size(70, 70);
@@ -224,7 +225,7 @@
             // 
             // bw
             // 
-            this.bw.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.bw.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.bw.Location = new System.Drawing.Point(189, 93);
             this.bw.Name = "bw";
             this.bw.Size = new System.Drawing.Size(70, 70);
@@ -234,7 +235,7 @@
             // 
             // be
             // 
-            this.be.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.be.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.be.Location = new System.Drawing.Point(265, 93);
             this.be.Name = "be";
             this.be.Size = new System.Drawing.Size(70, 70);
@@ -244,7 +245,7 @@
             // 
             // br
             // 
-            this.br.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.br.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.br.Location = new System.Drawing.Point(341, 93);
             this.br.Name = "br";
             this.br.Size = new System.Drawing.Size(70, 70);
@@ -254,7 +255,7 @@
             // 
             // bt
             // 
-            this.bt.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.bt.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.bt.Location = new System.Drawing.Point(417, 93);
             this.bt.Name = "bt";
             this.bt.Size = new System.Drawing.Size(70, 70);
@@ -264,7 +265,7 @@
             // 
             // by
             // 
-            this.by.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.by.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.by.Location = new System.Drawing.Point(493, 93);
             this.by.Name = "by";
             this.by.Size = new System.Drawing.Size(70, 70);
@@ -274,7 +275,7 @@
             // 
             // bu
             // 
-            this.bu.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.bu.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.bu.Location = new System.Drawing.Point(569, 93);
             this.bu.Name = "bu";
             this.bu.Size = new System.Drawing.Size(70, 70);
@@ -284,7 +285,7 @@
             // 
             // bi
             // 
-            this.bi.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.bi.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.bi.Location = new System.Drawing.Point(645, 93);
             this.bi.Name = "bi";
             this.bi.Size = new System.Drawing.Size(70, 70);
@@ -294,7 +295,7 @@
             // 
             // bo
             // 
-            this.bo.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.bo.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.bo.Location = new System.Drawing.Point(721, 93);
             this.bo.Name = "bo";
             this.bo.Size = new System.Drawing.Size(70, 70);
@@ -304,7 +305,7 @@
             // 
             // bp
             // 
-            this.bp.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.bp.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.bp.Location = new System.Drawing.Point(797, 93);
             this.bp.Name = "bp";
             this.bp.Size = new System.Drawing.Size(70, 70);
@@ -314,7 +315,7 @@
             // 
             // b13
             // 
-            this.b13.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.b13.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.b13.Location = new System.Drawing.Point(873, 94);
             this.b13.Name = "b13";
             this.b13.Size = new System.Drawing.Size(70, 70);
@@ -324,7 +325,7 @@
             // 
             // b14
             // 
-            this.b14.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.b14.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.b14.Location = new System.Drawing.Point(949, 94);
             this.b14.Name = "b14";
             this.b14.Size = new System.Drawing.Size(70, 70);
@@ -334,7 +335,7 @@
             // 
             // bq
             // 
-            this.bq.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.bq.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.bq.Location = new System.Drawing.Point(113, 91);
             this.bq.Name = "bq";
             this.bq.Size = new System.Drawing.Size(70, 70);
@@ -344,7 +345,7 @@
             // 
             // bs
             // 
-            this.bs.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.bs.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.bs.Location = new System.Drawing.Point(212, 169);
             this.bs.Name = "bs";
             this.bs.Size = new System.Drawing.Size(70, 70);
@@ -354,7 +355,7 @@
             // 
             // bd
             // 
-            this.bd.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.bd.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.bd.Location = new System.Drawing.Point(288, 169);
             this.bd.Name = "bd";
             this.bd.Size = new System.Drawing.Size(70, 70);
@@ -364,7 +365,7 @@
             // 
             // bf
             // 
-            this.bf.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.bf.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.bf.Location = new System.Drawing.Point(364, 169);
             this.bf.Name = "bf";
             this.bf.Size = new System.Drawing.Size(70, 70);
@@ -374,7 +375,7 @@
             // 
             // bg
             // 
-            this.bg.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.bg.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.bg.Location = new System.Drawing.Point(440, 169);
             this.bg.Name = "bg";
             this.bg.Size = new System.Drawing.Size(70, 70);
@@ -384,7 +385,7 @@
             // 
             // bh
             // 
-            this.bh.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.bh.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.bh.Location = new System.Drawing.Point(516, 169);
             this.bh.Name = "bh";
             this.bh.Size = new System.Drawing.Size(70, 70);
@@ -394,7 +395,7 @@
             // 
             // bj
             // 
-            this.bj.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.bj.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.bj.Location = new System.Drawing.Point(592, 169);
             this.bj.Name = "bj";
             this.bj.Size = new System.Drawing.Size(70, 70);
@@ -404,7 +405,7 @@
             // 
             // bk
             // 
-            this.bk.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.bk.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.bk.Location = new System.Drawing.Point(668, 169);
             this.bk.Name = "bk";
             this.bk.Size = new System.Drawing.Size(70, 70);
@@ -414,7 +415,7 @@
             // 
             // bl
             // 
-            this.bl.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.bl.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.bl.Location = new System.Drawing.Point(744, 170);
             this.bl.Name = "bl";
             this.bl.Size = new System.Drawing.Size(70, 70);
@@ -424,7 +425,7 @@
             // 
             // b15
             // 
-            this.b15.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.b15.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.b15.Location = new System.Drawing.Point(820, 169);
             this.b15.Name = "b15";
             this.b15.Size = new System.Drawing.Size(70, 70);
@@ -434,7 +435,7 @@
             // 
             // ba
             // 
-            this.ba.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.ba.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.ba.Location = new System.Drawing.Point(136, 170);
             this.ba.Name = "ba";
             this.ba.Size = new System.Drawing.Size(70, 70);
@@ -444,7 +445,7 @@
             // 
             // bx
             // 
-            this.bx.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.bx.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.bx.Location = new System.Drawing.Point(239, 245);
             this.bx.Name = "bx";
             this.bx.Size = new System.Drawing.Size(70, 70);
@@ -454,7 +455,7 @@
             // 
             // bc
             // 
-            this.bc.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.bc.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.bc.Location = new System.Drawing.Point(315, 245);
             this.bc.Name = "bc";
             this.bc.Size = new System.Drawing.Size(70, 70);
@@ -464,7 +465,7 @@
             // 
             // bv
             // 
-            this.bv.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.bv.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.bv.Location = new System.Drawing.Point(391, 245);
             this.bv.Name = "bv";
             this.bv.Size = new System.Drawing.Size(70, 70);
@@ -474,7 +475,7 @@
             // 
             // bb
             // 
-            this.bb.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.bb.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.bb.Location = new System.Drawing.Point(467, 245);
             this.bb.Name = "bb";
             this.bb.Size = new System.Drawing.Size(70, 70);
@@ -484,7 +485,7 @@
             // 
             // bn
             // 
-            this.bn.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.bn.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.bn.Location = new System.Drawing.Point(543, 245);
             this.bn.Name = "bn";
             this.bn.Size = new System.Drawing.Size(70, 70);
@@ -494,7 +495,7 @@
             // 
             // bm
             // 
-            this.bm.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.bm.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.bm.Location = new System.Drawing.Point(619, 245);
             this.bm.Name = "bm";
             this.bm.Size = new System.Drawing.Size(70, 70);
@@ -504,7 +505,7 @@
             // 
             // b17
             // 
-            this.b17.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.b17.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.b17.Location = new System.Drawing.Point(695, 245);
             this.b17.Name = "b17";
             this.b17.Size = new System.Drawing.Size(70, 70);
@@ -514,7 +515,7 @@
             // 
             // b18
             // 
-            this.b18.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.b18.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.b18.Location = new System.Drawing.Point(771, 245);
             this.b18.Name = "b18";
             this.b18.Size = new System.Drawing.Size(70, 70);
@@ -524,7 +525,7 @@
             // 
             // b19
             // 
-            this.b19.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.b19.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.b19.Location = new System.Drawing.Point(847, 245);
             this.b19.Name = "b19";
             this.b19.Size = new System.Drawing.Size(70, 70);
@@ -534,7 +535,7 @@
             // 
             // bz
             // 
-            this.bz.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.bz.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.bz.Location = new System.Drawing.Point(163, 246);
             this.bz.Name = "bz";
             this.bz.Size = new System.Drawing.Size(70, 70);
@@ -544,7 +545,7 @@
             // 
             // b16
             // 
-            this.b16.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.b16.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.b16.Location = new System.Drawing.Point(896, 169);
             this.b16.Name = "b16";
             this.b16.Size = new System.Drawing.Size(70, 70);
@@ -554,7 +555,7 @@
             // 
             // space
             // 
-            this.space.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.space.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.space.Location = new System.Drawing.Point(163, 331);
             this.space.Name = "space";
             this.space.Size = new System.Drawing.Size(765, 70);
@@ -564,7 +565,7 @@
             // 
             // b20
             // 
-            this.b20.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.b20.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.b20.Location = new System.Drawing.Point(1025, 92);
             this.b20.Name = "b20";
             this.b20.Size = new System.Drawing.Size(111, 70);
@@ -574,7 +575,7 @@
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.button1.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button1.Location = new System.Drawing.Point(22, 91);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(85, 70);
@@ -584,7 +585,7 @@
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.button2.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button2.Location = new System.Drawing.Point(22, 170);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(108, 70);
@@ -594,7 +595,7 @@
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.button3.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button3.Location = new System.Drawing.Point(22, 246);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(135, 70);
@@ -604,7 +605,7 @@
             // 
             // bss
             // 
-            this.bss.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.bss.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.bss.Location = new System.Drawing.Point(1010, 15);
             this.bss.Name = "bss";
             this.bss.Size = new System.Drawing.Size(147, 70);
@@ -614,7 +615,7 @@
             // 
             // button4
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.button4.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button4.Location = new System.Drawing.Point(972, 170);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(164, 70);
@@ -624,7 +625,7 @@
             // 
             // button5
             // 
-            this.button5.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
+            this.button5.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.button5.Location = new System.Drawing.Point(923, 246);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(178, 70);
@@ -639,7 +640,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("SimSun", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label1.Location = new System.Drawing.Point(226, 434);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(124, 28);
@@ -648,7 +649,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("SimSun", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox1.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.textBox1.Location = new System.Drawing.Point(379, 428);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(283, 38);
@@ -657,7 +658,7 @@
             // 
             // button6
             // 
-            this.button6.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button6.Font = new System.Drawing.Font("微软雅黑", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button6.Location = new System.Drawing.Point(695, 428);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(119, 38);
@@ -668,7 +669,7 @@
             // 
             // button7
             // 
-            this.button7.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button7.Font = new System.Drawing.Font("微软雅黑", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button7.Location = new System.Drawing.Point(824, 428);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(119, 38);
@@ -680,7 +681,7 @@
             // listBox1
             // 
             this.listBox1.CausesValidation = false;
-            this.listBox1.Font = new System.Drawing.Font("Microsoft YaHei", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.listBox1.Font = new System.Drawing.Font("微软雅黑", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 32;
             this.listBox1.Location = new System.Drawing.Point(1164, 17);
@@ -688,11 +689,21 @@
             this.listBox1.Size = new System.Drawing.Size(127, 452);
             this.listBox1.TabIndex = 63;
             // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("宋体", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox2.Location = new System.Drawing.Point(379, 483);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(283, 38);
+            this.textBox2.TabIndex = 64;
+            this.textBox2.Text = "Class";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1303, 538);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
@@ -759,6 +770,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "KeyMan(键盘侠)-初级版";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             this.ResumeLayout(false);
@@ -828,6 +840,7 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 

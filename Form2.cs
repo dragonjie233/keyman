@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ClassFn;
 
 namespace WindowsFormsApp1
 {
@@ -29,6 +30,29 @@ namespace WindowsFormsApp1
             this.Hide();
             Form3 f3 = new Form3();
             f3.ShowDialog();
+        }
+
+        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            System.Environment.Exit(0);
+        }
+
+        private void displayRankList(string level, object control)
+        {
+            dynamic rankListObj = new ClassFn.Http.Get("http://38.34.244.41:8001/api/data/ranklist?level=" + level).getData();
+            dynamic rankList = rankListObj.data;
+
+            for (int i = 0; i < rankList.Count; i++)
+            {
+                string listText = string.Format("{0} \t{1}(S)", rankList[i].name, rankList[i].score);
+                (control as ListBox).Items.Add(listText);
+            }
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            displayRankList("初级", listBox1);
+            displayRankList("高级", listBox2);
         }
     }
 }

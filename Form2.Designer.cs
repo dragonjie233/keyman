@@ -86,6 +86,8 @@
             this.MaximizeBox = false;
             this.Name = "Form2";
             this.Text = "键盘侠(Keyman)";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_FormClosed);
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
 
         }

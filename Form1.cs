@@ -25,7 +25,7 @@ namespace WindowsFormsApp1
         //单次游戏长度
         int Words = 30;
 
-        readonly string[] record = new string[] {"0","0","0","0","0","0","0","0","0","0"};
+        readonly List<int> record = new List<int>() { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 
         string[] listbts = new string[] {
                 "bt0","bt1","bt2","bt3","bt4","bt5","bt6","bt7","bt8","bt9",
@@ -254,32 +254,52 @@ namespace WindowsFormsApp1
             }
             else
             {
-                MessageBox.Show(string.Format("{0},{1}",textBox1.Text, TimeCount.Hours*60*60+TimeCount.Minutes*60+TimeCount.Seconds));
+                int     score   = TimeCount.Hours * 60 * 60 + TimeCount.Minutes * 60 + TimeCount.Seconds;
+                string  nowDate = System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss").ToString();
+
+                MessageBox.Show(string.Format("{0},{1}",textBox1.Text, score));
+
                 //记录成绩
-                for (int i = 0; i < record.Length; i++)
+                if (record[0] == 0)
                 {
-                    if (record[i] == "0")
+                    //列表首项新增成绩，升序排序，最小的数始终为首项
+                    record[0] = score;
+                    record.Sort();
+
+                    //每一次显示成绩到窗口前都先清除原来的数据，以免重复
+                    listBox1.Items.Clear();
+
+                    //循环新的成绩列表到窗口
+                    foreach (int x in record)
                     {
-                        record[i] = (TimeCount.Hours * 60 * 60 + TimeCount.Minutes * 60 + TimeCount.Seconds).ToString();
-                       
-                        listBox1.Items.Add(record[i]+"(S) " + Words.ToString());
-
-                        if (i <  record.Length-1)
+                        if (x != 0)
                         {
-                            break;
+                            listBox1.Items.Add(x + "(S) " + Words.ToString());
                         }
-                        else
-                        {
-                            foreach (Control control in this.Controls)
-                            {
-                                //停止操作
-                                control.Enabled = false;
-                            }
-                            //发送成绩到服务器
+                    }
 
-                        }  
-                    } 
-                }     
+                    //在每一次新增成绩时，判断列表第一项是否为0，不为0则代表成绩已记录满
+                    if (record[0] != 0)
+                    {
+                        foreach (Control control in this.Controls)
+                        {
+                            //停止操作
+                            control.Enabled = false;
+                        }
+
+                        //发送最优成绩到服务器
+                        Dictionary<string, object> dictData = new Dictionary<string, object>
+                        {
+                            { "clas", textBox2.Text },
+                            { "name", textBox1.Text },
+                            { "level", "初级" },
+                            { "score", record[0] },
+                            { "date", nowDate},
+                            { "passwd", "admin233" }
+                        };
+                        new ClassFn.Http.Post("http://38.34.244.41:8001/api/admin/new/rank").postData(dictData);
+                    }
+                }
             }
         }
 
@@ -318,6 +338,14 @@ namespace WindowsFormsApp1
                 control.ForeColor = Color.White;
             }
 
+        }
+
+        //页面被关闭时
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Hide();
+            Form2 f2 = new Form2();
+            f2.ShowDialog();
         }
     }
 }
