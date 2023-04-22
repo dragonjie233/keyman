@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
-from routes import admin, data
+from routes import admin, data, proenwords
 import uvicorn
 
 app = FastAPI(
@@ -15,6 +15,7 @@ app = FastAPI(
 
 app.include_router(admin.router)
 app.include_router(data.router)
+app.include_router(proenwords.router)
 
 
 if __name__ == "__main__":
