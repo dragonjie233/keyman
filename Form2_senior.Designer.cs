@@ -129,7 +129,7 @@
             // 
             this.progressBar1.Location = new System.Drawing.Point(0, -1);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(1290, 9);
+            this.progressBar1.Size = new System.Drawing.Size(1216, 9);
             this.progressBar1.TabIndex = 394;
             // 
             // label3
@@ -226,7 +226,7 @@
             this.lb_scorelist.Location = new System.Drawing.Point(1134, 50);
             this.lb_scorelist.Margin = new System.Windows.Forms.Padding(2);
             this.lb_scorelist.Name = "lb_scorelist";
-            this.lb_scorelist.Size = new System.Drawing.Size(132, 298);
+            this.lb_scorelist.Size = new System.Drawing.Size(55, 298);
             this.lb_scorelist.TabIndex = 386;
             // 
             // btn_kb_right_alt
@@ -1003,7 +1003,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(10)))), ((int)(((byte)(10)))));
-            this.ClientSize = new System.Drawing.Size(1290, 540);
+            this.ClientSize = new System.Drawing.Size(1216, 540);
             this.Controls.Add(this.lb_ecrg_1);
             this.Controls.Add(this.lb_ecrg_2);
             this.Controls.Add(this.progressBar1);

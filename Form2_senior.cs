@@ -475,7 +475,7 @@ namespace keymanx
                             con.Enabled = false;
                         }
 
-                        sendToMulticast(tb_class.Text + " " + tb_name.Text + "#" + ScoreRecordList[0] + "#primary");
+                        sendToMulticast(tb_class.Text + " " + tb_name.Text + "#" + ScoreRecordList[0] + "#senior");
 
                         MessageBox.Show(string.Format("比赛结束！\n\n参赛选手：{0}\n选手班级：{1}\n\n您的最优成绩为 {2}", tb_name.Text, tb_class.Text, lb_scorelist.Items[0]), "比赛结束！");
 

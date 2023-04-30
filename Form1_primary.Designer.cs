@@ -972,7 +972,7 @@
             // 
             this.progressBar1.Location = new System.Drawing.Point(0, -1);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(1225, 9);
+            this.progressBar1.Size = new System.Drawing.Size(1216, 9);
             this.progressBar1.TabIndex = 324;
             // 
             // lb_ecrg_2

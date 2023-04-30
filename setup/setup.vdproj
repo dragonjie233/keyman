@@ -15,20 +15,14 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_0BECDAA44B4D4F42B94DC5EF95DE83AE"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_303DD1C21D4E48819C0046EDB680DEBF"
+        "MsmKey" = "8:_3B27A20679654BBA94531D42D99D5942"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_5B5D0FF9B019573EB12E3CC57A6CC0FC"
-        "OwnerKey" = "8:_0BECDAA44B4D4F42B94DC5EF95DE83AE"
+        "OwnerKey" = "8:_D91CDDC7D2FF480AB4491A2B68B4B18D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -39,14 +33,20 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_D91CDDC7D2FF480AB4491A2B68B4B18D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_F8E8B489DA650514A2E946C6E769920C"
-        "OwnerKey" = "8:_0BECDAA44B4D4F42B94DC5EF95DE83AE"
+        "OwnerKey" = "8:_D91CDDC7D2FF480AB4491A2B68B4B18D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0BECDAA44B4D4F42B94DC5EF95DE83AE"
+        "OwnerKey" = "8:_D91CDDC7D2FF480AB4491A2B68B4B18D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -156,7 +156,7 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_303DD1C21D4E48819C0046EDB680DEBF"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3B27A20679654BBA94531D42D99D5942"
             {
             "SourcePath" = "8:..\\favicon.ico"
             "TargetName" = "8:favicon.ico"
@@ -303,21 +303,21 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:键盘侠 Keymanx"
-        "ProductCode" = "8:{C674F68C-616F-49FE-94E4-7909B5C9CB4D}"
-        "PackageCode" = "8:{4D59065B-9D83-4778-B9C9-925E009E46AD}"
+        "ProductCode" = "8:{C6E25A6B-A868-471F-AA88-5467B8553605}"
+        "PackageCode" = "8:{3B3EAA00-E3FC-4FEC-9264-7E96E307A57C}"
         "UpgradeCode" = "8:{1AAA635B-DE4C-4D01-BA21-FAB9AE8D0961}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:0.1.2304"
+        "ProductVersion" = "8:0.7.2304"
         "Manufacturer" = "8:Keymanx"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:键盘侠 Keymanx"
+        "Title" = "8:"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:龙介Longjie（陈俊杰）"
+        "ARPCONTACT" = "8:龙介Longjie"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
@@ -424,21 +424,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_38F444AFF4BE426E97ECE8CE0EB86F80"
-            {
-            "Name" = "8:卸载键盘侠 Keymanx"
-            "Arguments" = "8:/x {C674F68C-616F-49FE-94E4-7909B5C9CB4D}"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_D07731B77C4B4D528EE1D2EB83FA562B"
-            "Folder" = "8:_8F069E8C1AB6482CBE940E87F78F24F1"
-            "WorkingFolder" = "8:_8F069E8C1AB6482CBE940E87F78F24F1"
-            "Icon" = "8:"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_91C2AEB26B024E429075734B2CF4A388"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_974FFF6E233341CFBAB8B52985B8E66C"
             {
             "Name" = "8:键盘侠 Keymanx"
             "Arguments" = "8:"
@@ -446,10 +432,24 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_0BECDAA44B4D4F42B94DC5EF95DE83AE"
+            "Target" = "8:_D91CDDC7D2FF480AB4491A2B68B4B18D"
             "Folder" = "8:_FAA1CF7EBD9444BEACB7967451A26D24"
             "WorkingFolder" = "8:_8F069E8C1AB6482CBE940E87F78F24F1"
-            "Icon" = "8:_303DD1C21D4E48819C0046EDB680DEBF"
+            "Icon" = "8:_3B27A20679654BBA94531D42D99D5942"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_E4D6BFEDD26448348DB043DE35EDC69E"
+            {
+            "Name" = "8:卸载键盘侠"
+            "Arguments" = "8:/x {C6E25A6B-A868-471F-AA88-5467B8553605}"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_D07731B77C4B4D528EE1D2EB83FA562B"
+            "Folder" = "8:_8F069E8C1AB6482CBE940E87F78F24F1"
+            "WorkingFolder" = "8:_8F069E8C1AB6482CBE940E87F78F24F1"
+            "Icon" = "8:_3B27A20679654BBA94531D42D99D5942"
             "Feature" = "8:"
             }
         }
@@ -851,7 +851,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_0BECDAA44B4D4F42B94DC5EF95DE83AE"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D91CDDC7D2FF480AB4491A2B68B4B18D"
             {
             "SourcePath" = "8:..\\obj\\Release\\Keymanx.exe"
             "TargetName" = "8:"

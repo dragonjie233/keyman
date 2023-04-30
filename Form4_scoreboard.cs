@@ -44,6 +44,12 @@ namespace keymanx
                     string[] score = receiveString.Split('#');
                     string score_type = score[2];
 
+                    string clas = score[0].Split(' ')[0];
+                    string name = score[0].Split(' ')[1];
+
+                    AddScoreToYaml(clas, name, score[1], score_type);
+                    AddToExcel(clas, name, int.Parse(score[1]), score_type);
+
                     if (score_type != level)
                     {
                         continue;
@@ -62,11 +68,6 @@ namespace keymanx
                     {
                         recode.Add(score[0], int.Parse(score[1]));
                     }
-
-                    string clas = score[0].Split(' ')[0];
-                    string name = score[0].Split(' ')[1];
-                    AddScoreToYaml(clas, name, score[1]);
-                    AddToExcel(clas, name, int.Parse(score[1]));
 
                     DisplayScore();
                 }
@@ -168,13 +169,14 @@ namespace keymanx
         }
 
         // 向 Yaml 增加成绩数据
-        private void AddScoreToYaml(string clas, string name, string score)
+        private void AddScoreToYaml(string clas, string name, string score, string level)
         {
             Dictionary<string, object> data = new Dictionary<string, object>();
 
             data[name] = new Dictionary<string, string>{
                 { "clas", clas},
                 { "score", score},
+                { "level", level },
                 { "uploadDate", System.DateTime.Now.ToString("yyyy-MM-dd HH:mm")}
             };
 
@@ -192,8 +194,41 @@ namespace keymanx
             };
         }
 
+        // 展示 Yaml 的数据到窗口
+        private void ShowYamlToForm()
+        {
+            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
+            string filePath = Path.Combine(desktopPath, System.DateTime.Now.ToString("D") + "比赛成绩记录.yml");
+
+            recode.Clear();
+
+            if (File.Exists(filePath))
+            {
+                var deserializer = new DeserializerBuilder()
+                                .WithNamingConvention(UnderscoredNamingConvention.Instance)
+                                .Build();
+                string yml = File.ReadAllText(filePath);
+
+                var p = deserializer.Deserialize<dynamic>(yml);
+
+                foreach (var a in p)
+                {
+                    if (a.Value["level"] == level)
+                    {
+                        string ClassAndName = a.Value["clas"] + ' ' + a.Key;
+                        recode.Add(ClassAndName, int.Parse(a.Value["score"]));
+                    }
+                }
+
+                if (recode.Count > 0)
+                {
+                    DisplayScore();
+                }
+            }
+        }
+
         // 把成绩数据导出为 Excel
-        private void AddToExcel(string clas, string name, int score)
+        private void AddToExcel(string clas, string name, int score, string level)
         {
             Task.Run(() =>
             {
@@ -213,7 +248,8 @@ namespace keymanx
                     worksheet.Cells[1, 1] = "班级";
                     worksheet.Cells[1, 2] = "姓名";
                     worksheet.Cells[1, 3] = "成绩";
-                    worksheet.Cells[1, 4] = "上传时间";
+                    worksheet.Cells[1, 4] = "等级";
+                    worksheet.Cells[1, 5] = "上传时间";
 
                     workbook.SaveAs(filePath);
                 }
@@ -227,7 +263,8 @@ namespace keymanx
                 worksheet.Cells[lastRow + 1, 1] = clas;
                 worksheet.Cells[lastRow + 1, 2] = name;
                 worksheet.Cells[lastRow + 1, 3] = score;
-                worksheet.Cells[lastRow + 1, 4] = System.DateTime.Now.ToString("yyyy年MM月dd HH:mm"); ;
+                worksheet.Cells[lastRow + 1, 4] = level;
+                worksheet.Cells[lastRow + 1, 5] = System.DateTime.Now.ToString("yyyy年MM月dd HH:mm"); ;
 
                 workbook.Save();
 
@@ -241,27 +278,6 @@ namespace keymanx
         {
             // 默认接收的成绩类型
             button1.PerformClick();
-
-            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
-            string filePath = Path.Combine(desktopPath, System.DateTime.Now.ToString("D") + "比赛成绩记录.yml");
-
-            if (File.Exists(filePath))
-            {
-                var deserializer = new DeserializerBuilder()
-                                .WithNamingConvention(UnderscoredNamingConvention.Instance)
-                                .Build();
-                string yml = File.ReadAllText(filePath);
-
-                var p = deserializer.Deserialize<dynamic>(yml);
-
-                foreach (var a in p)
-                {
-                    string ClassAndName = a.Value["clas"] + ' ' + a.Key;
-                    recode.Add(ClassAndName, int.Parse(a.Value["score"]));
-                }
-
-                DisplayScore();
-            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -274,6 +290,8 @@ namespace keymanx
             ranklist2.Items.Clear();
             ranklist3.Items.Clear();
             ranklist4.Items.Clear();
+
+            ShowYamlToForm();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -286,6 +304,8 @@ namespace keymanx
             ranklist2.Items.Clear();
             ranklist3.Items.Clear();
             ranklist4.Items.Clear();
+
+            ShowYamlToForm();
         }
 
         private void Form4_scoreboard_FormClosed(object sender, FormClosedEventArgs e)
