@@ -1081,7 +1081,7 @@
             this.Name = "Form1_primary";
             this.Padding = new System.Windows.Forms.Padding(0, 0, 30, 32);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "键盘侠 Keyman 初级";
+            this.Text = "键盘侠 Keymanx 初级";
             this.Activated += new System.EventHandler(this.Form1_primary_Activated);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_primary_FormClosed);
             this.Load += new System.EventHandler(this.Form1_primary_Load);

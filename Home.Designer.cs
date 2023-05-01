@@ -296,7 +296,7 @@
             this.MaximizeBox = false;
             this.Name = "Home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "键盘侠 Keyman";
+            this.Text = "键盘侠 Keymanx";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Home_FormClosed);
             this.tabControl1.ResumeLayout(false);
             this.tabPage_home.ResumeLayout(false);

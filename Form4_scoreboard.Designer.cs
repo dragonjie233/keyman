@@ -276,7 +276,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form4_scoreboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "键盘侠 Keyman 计分板";
+            this.Text = "键盘侠 Keymanx 计分板";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form4_scoreboard_FormClosed);
             this.Load += new System.EventHandler(this.Form4_scoreboard_Load);

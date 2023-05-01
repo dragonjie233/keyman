@@ -906,7 +906,7 @@
             this.MinimizeBox = false;
             this.Name = "Form3_profession";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "键盘侠 Keyman 专业";
+            this.Text = "键盘侠 Keymanx 专业";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form3_profession_FormClosed);
             this.Load += new System.EventHandler(this.Form3_profession_Load);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form3_profession_KeyPress);

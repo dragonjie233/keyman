@@ -1080,7 +1080,7 @@
             this.MinimizeBox = false;
             this.Name = "Form2_senior";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "键盘侠 Keyman 高级";
+            this.Text = "键盘侠 Keymanx 高级";
             this.Activated += new System.EventHandler(this.Form2_senior_Activated);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form2_senior_FormClosed);
             this.Load += new System.EventHandler(this.Form2_senior_Load);
