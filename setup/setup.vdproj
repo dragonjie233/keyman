@@ -27,7 +27,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_D07731B77C4B4D528EE1D2EB83FA562B"
+        "MsmKey" = "8:_B79064D78FCE4EE2BFF030617CAA9624"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -207,7 +207,7 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D07731B77C4B4D528EE1D2EB83FA562B"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B79064D78FCE4EE2BFF030617CAA9624"
             {
             "SourcePath" = "8:C:\\Windows\\System32\\msiexec.exe"
             "TargetName" = "8:msiexec.exe"
@@ -303,15 +303,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:键盘侠 Keymanx"
-        "ProductCode" = "8:{7A1FEC1B-DC12-4A2B-ADAA-5DBAE1D5AE7E}"
-        "PackageCode" = "8:{893995B2-7E9A-4F93-9E25-485F70071171}"
+        "ProductCode" = "8:{433CB48B-29E5-4399-B5C8-1C5A5A53567E}"
+        "PackageCode" = "8:{BB5ED0F8-AF57-406D-99E8-98C3793A352A}"
         "UpgradeCode" = "8:{1AAA635B-DE4C-4D01-BA21-FAB9AE8D0961}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:0.7.1"
+        "ProductVersion" = "8:0.7.2"
         "Manufacturer" = "8:Keymanx"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -438,15 +438,15 @@
             "Icon" = "8:_9404CC8FFBFF409FBC0621077413EDC7"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_E4D6BFEDD26448348DB043DE35EDC69E"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CF8408756EFA4A00867297ACA71F3414"
             {
-            "Name" = "8:卸载键盘侠"
-            "Arguments" = "8:/x {7A1FEC1B-DC12-4A2B-ADAA-5DBAE1D5AE7E}"
+            "Name" = "8:Uninstall"
+            "Arguments" = "8:/x {433CB48B-29E5-4399-B5C8-1C5A5A53567E}"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_D07731B77C4B4D528EE1D2EB83FA562B"
+            "Target" = "8:_B79064D78FCE4EE2BFF030617CAA9624"
             "Folder" = "8:_8F069E8C1AB6482CBE940E87F78F24F1"
             "WorkingFolder" = "8:_8F069E8C1AB6482CBE940E87F78F24F1"
             "Icon" = "8:_9404CC8FFBFF409FBC0621077413EDC7"
@@ -853,7 +853,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D91CDDC7D2FF480AB4491A2B68B4B18D"
             {
-            "SourcePath" = "8:..\\obj\\Release\\Keymanx.exe"
+            "SourcePath" = "8:"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_8F069E8C1AB6482CBE940E87F78F24F1"
