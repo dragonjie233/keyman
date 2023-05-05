@@ -15,14 +15,14 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_3B27A20679654BBA94531D42D99D5942"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_5B5D0FF9B019573EB12E3CC57A6CC0FC"
+        "OwnerKey" = "8:_D91CDDC7D2FF480AB4491A2B68B4B18D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_5B5D0FF9B019573EB12E3CC57A6CC0FC"
-        "OwnerKey" = "8:_D91CDDC7D2FF480AB4491A2B68B4B18D"
+        "MsmKey" = "8:_9404CC8FFBFF409FBC0621077413EDC7"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -156,26 +156,6 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3B27A20679654BBA94531D42D99D5942"
-            {
-            "SourcePath" = "8:..\\favicon.ico"
-            "TargetName" = "8:favicon.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_8F069E8C1AB6482CBE940E87F78F24F1"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5B5D0FF9B019573EB12E3CC57A6CC0FC"
             {
             "AssemblyRegister" = "3:1"
@@ -205,6 +185,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9404CC8FFBFF409FBC0621077413EDC7"
+            {
+            "SourcePath" = "8:..\\favicon.ico"
+            "TargetName" = "8:favicon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8F069E8C1AB6482CBE940E87F78F24F1"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D07731B77C4B4D528EE1D2EB83FA562B"
@@ -303,15 +303,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:键盘侠 Keymanx"
-        "ProductCode" = "8:{C6E25A6B-A868-471F-AA88-5467B8553605}"
-        "PackageCode" = "8:{3B3EAA00-E3FC-4FEC-9264-7E96E307A57C}"
+        "ProductCode" = "8:{7A1FEC1B-DC12-4A2B-ADAA-5DBAE1D5AE7E}"
+        "PackageCode" = "8:{893995B2-7E9A-4F93-9E25-485F70071171}"
         "UpgradeCode" = "8:{1AAA635B-DE4C-4D01-BA21-FAB9AE8D0961}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:0.7.2304"
+        "ProductVersion" = "8:0.7.1"
         "Manufacturer" = "8:Keymanx"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -426,7 +426,7 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_974FFF6E233341CFBAB8B52985B8E66C"
             {
-            "Name" = "8:键盘侠 Keymanx"
+            "Name" = "8:键盘侠"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
@@ -435,13 +435,13 @@
             "Target" = "8:_D91CDDC7D2FF480AB4491A2B68B4B18D"
             "Folder" = "8:_FAA1CF7EBD9444BEACB7967451A26D24"
             "WorkingFolder" = "8:_8F069E8C1AB6482CBE940E87F78F24F1"
-            "Icon" = "8:_3B27A20679654BBA94531D42D99D5942"
+            "Icon" = "8:_9404CC8FFBFF409FBC0621077413EDC7"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_E4D6BFEDD26448348DB043DE35EDC69E"
             {
             "Name" = "8:卸载键盘侠"
-            "Arguments" = "8:/x {C6E25A6B-A868-471F-AA88-5467B8553605}"
+            "Arguments" = "8:/x {7A1FEC1B-DC12-4A2B-ADAA-5DBAE1D5AE7E}"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
@@ -449,7 +449,7 @@
             "Target" = "8:_D07731B77C4B4D528EE1D2EB83FA562B"
             "Folder" = "8:_8F069E8C1AB6482CBE940E87F78F24F1"
             "WorkingFolder" = "8:_8F069E8C1AB6482CBE940E87F78F24F1"
-            "Icon" = "8:_3B27A20679654BBA94531D42D99D5942"
+            "Icon" = "8:_9404CC8FFBFF409FBC0621077413EDC7"
             "Feature" = "8:"
             }
         }
