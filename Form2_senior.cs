@@ -27,7 +27,7 @@ namespace keymanx
         int CounterErr = new();
 
         // 单次打字所需字数
-        int WordsTotal = 1;
+        int WordsTotal = 47;
 
         // 成绩记录列表，以及一局打字的总次数
         readonly List<int> ScoreRecordList = new List<int>() { 0, 0, 0, 0, 0, 0 };
