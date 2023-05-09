@@ -27,10 +27,10 @@ namespace keymanx
         int CounterErr = new();
 
         // 单次打字所需字数
-        int WordsTotal = 47;
+        int WordsTotal = 1;
 
         // 成绩记录列表，以及一局打字的总次数
-        readonly List<int> ScoreRecordList = new List<int>() { 0, 0, 0, 0, 0, 0, 0, 0 };
+        readonly List<int> ScoreRecordList = new List<int>() { 0, 0, 0, 0, 0, 0 };
 
         // 用于标记是否开始
         bool startFlag = false;
@@ -345,6 +345,13 @@ namespace keymanx
         // next
         public void nextone()
         {
+            startFlag = false;
+
+            foreach (Control con in this.Controls)
+            {
+                con.Enabled = true;
+            }
+
             lb_scorelist.Items.Clear();
             tb_name.Enabled = true;
             tb_name.Text = "";
@@ -433,7 +440,7 @@ namespace keymanx
             }
 
             // 满足单次打字要求的字数时
-            if (Counter == WordsTotal + 1)
+            if (Counter - 1 == WordsTotal)
             {
                 for (int i = 0; i < 95; i++)
                 {
@@ -463,7 +470,7 @@ namespace keymanx
                     {
                         if (x != 0)
                         {
-                            lb_scorelist.Items.Add(x + "秒, " + CounterErr + "错字");
+                            lb_scorelist.Items.Add(x + "秒");
                         }
                     }
 
@@ -478,13 +485,6 @@ namespace keymanx
                         sendToMulticast(tb_class.Text + " " + tb_name.Text + "#" + ScoreRecordList[0] + "#senior");
 
                         MessageBox.Show(string.Format("比赛结束！\n\n参赛选手：{0}\n选手班级：{1}\n\n您的最优成绩为 {2}", tb_name.Text, tb_class.Text, lb_scorelist.Items[0]), "比赛结束！");
-
-                        startFlag = false;
-
-                        foreach (Control con in this.Controls)
-                        {
-                            con.Enabled = true;
-                        }
 
                         nextone();
                     }
