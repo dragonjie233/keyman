@@ -15,12 +15,6 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_5B5D0FF9B019573EB12E3CC57A6CC0FC"
-        "OwnerKey" = "8:_D91CDDC7D2FF480AB4491A2B68B4B18D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_9404CC8FFBFF409FBC0621077413EDC7"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -33,32 +27,38 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_BF202055D30602204F97B7618D07396D"
+        "OwnerKey" = "8:_D91CDDC7D2FF480AB4491A2B68B4B18D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_D91CDDC7D2FF480AB4491A2B68B4B18D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_F8E8B489DA650514A2E946C6E769920C"
+        "MsmKey" = "8:_E8A64045E441A3F4F953F1E82F4A0F1E"
         "OwnerKey" = "8:_D91CDDC7D2FF480AB4491A2B68B4B18D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_BF202055D30602204F97B7618D07396D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_E8A64045E441A3F4F953F1E82F4A0F1E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_D91CDDC7D2FF480AB4491A2B68B4B18D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F8E8B489DA650514A2E946C6E769920C"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5B5D0FF9B019573EB12E3CC57A6CC0FC"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -156,37 +156,6 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5B5D0FF9B019573EB12E3CC57A6CC0FC"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:YamlDotNet, Version=13.0.0.0, Culture=neutral, PublicKeyToken=ec19458f3c15af5e, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_5B5D0FF9B019573EB12E3CC57A6CC0FC"
-                    {
-                    "Name" = "8:YamlDotNet.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:YamlDotNet.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_8F069E8C1AB6482CBE940E87F78F24F1"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9404CC8FFBFF409FBC0621077413EDC7"
             {
             "SourcePath" = "8:..\\favicon.ico"
@@ -227,14 +196,45 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F8E8B489DA650514A2E946C6E769920C"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BF202055D30602204F97B7618D07396D"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:YamlDotNet, Version=13.0.0.0, Culture=neutral, PublicKeyToken=ec19458f3c15af5e, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_BF202055D30602204F97B7618D07396D"
+                    {
+                    "Name" = "8:YamlDotNet.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:YamlDotNet.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_8F069E8C1AB6482CBE940E87F78F24F1"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E8A64045E441A3F4F953F1E82F4A0F1E"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_F8E8B489DA650514A2E946C6E769920C"
+                    "_E8A64045E441A3F4F953F1E82F4A0F1E"
                     {
                     "Name" = "8:Newtonsoft.Json.dll"
                     "Attributes" = "3:512"
@@ -303,15 +303,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:键盘侠 Keymanx"
-        "ProductCode" = "8:{433CB48B-29E5-4399-B5C8-1C5A5A53567E}"
-        "PackageCode" = "8:{BB5ED0F8-AF57-406D-99E8-98C3793A352A}"
+        "ProductCode" = "8:{0D6ACDF4-214D-4758-B7AB-42350A5B9226}"
+        "PackageCode" = "8:{D3A689AD-9813-4ECD-BDE2-0AB3A946FD2A}"
         "UpgradeCode" = "8:{1AAA635B-DE4C-4D01-BA21-FAB9AE8D0961}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:0.7.2"
+        "ProductVersion" = "8:0.7.3"
         "Manufacturer" = "8:Keymanx"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -441,7 +441,7 @@
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CF8408756EFA4A00867297ACA71F3414"
             {
             "Name" = "8:Uninstall"
-            "Arguments" = "8:/x {433CB48B-29E5-4399-B5C8-1C5A5A53567E}"
+            "Arguments" = "8:/x {0D6ACDF4-214D-4758-B7AB-42350A5B9226}"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
@@ -853,7 +853,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D91CDDC7D2FF480AB4491A2B68B4B18D"
             {
-            "SourcePath" = "8:"
+            "SourcePath" = "8:..\\obj\\Release\\Keymanx.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_8F069E8C1AB6482CBE940E87F78F24F1"
